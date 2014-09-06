@@ -167,9 +167,9 @@
 		  var geoJSON = highlightLastMarker(geoJSONnoHL, "#FF4646")
 
 		  // create map, tilelayer (map background), markers and popups
-			var map = Sheetsee.loadMap("map")
-			Sheetsee.addTileLayer(map, 'rourkie.ikdknp71')
-			var markerLayer = Sheetsee.addMarkerLayer(geoJSON, map, 13)
+		        var map = Sheetsee.loadMap("map")
+        Sheetsee.addTileLayer(map, 'rourkie.ikdknp71')
+        Sheetsee.addMarkerLayer(geoJSON, map, template)
 			addPopups(map, markerLayer)
 
 			// design the popups to have the content and
